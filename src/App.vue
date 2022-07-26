@@ -1,6 +1,16 @@
 <template>
   <div id="app">
     
+  Score
+  Rules
+
+  You Picked
+  The House Picked
+
+  You Win
+  You Lose
+
+  Play Again
   </div>
 </template>
 
