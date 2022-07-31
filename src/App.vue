@@ -1,16 +1,6 @@
 <template>
   <div id="app">
-    
-  Score
-  Rules
-
-  You Picked
-  The House Picked
-
-  You Win
-  You Lose
-
-  Play Again
+    <router-view></router-view>
   </div>
 </template>
 
@@ -19,6 +9,11 @@
 import './assets/css/app.css'
 
 export default {
-  name: 'App'
+  name: 'App',
+  data(){
+    return {
+      b: 'asidjasijdisa'
+    }
+  }
 }
 </script>
