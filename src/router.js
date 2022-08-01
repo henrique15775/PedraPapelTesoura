@@ -2,6 +2,8 @@
 import VueRouter from 'vue-router'
 import StartApp from './components/StartApp'
 import App from './App'
+import GameSession from './components/GameSession'
+
 
 const routes = [
     {
@@ -11,6 +13,10 @@ const routes = [
     {
         path:'/start',
         component: StartApp
+    },
+    {
+        path:'/game',
+        component: GameSession
     }
 ]
 

@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import StartApp from './components/StartApp'
 import App from './App'
 import GameApp from './components/GameApp'
-
+import GameSession from './components/GameSession'
 Vue.use(VueRouter)
 
 Vue.config.productionTip = false
@@ -15,6 +15,10 @@ const routes = [
     {
         path:'/start',
         component: GameApp
+    },
+    {
+        path:'/game',
+        component: GameSession
     }
 ]
 

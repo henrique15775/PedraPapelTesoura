@@ -1,8 +1,11 @@
+
+
 .botao-start{
-    font-size: 5rem;
-    color: rgb(161, 161, 183);
+    font-size: 1.75rem;
+    color: rgb(255, 255, 255);
+    padding: 1.75rem 3.5rem 1.75rem 3.5rem;
     background-color: rgb(45, 45, 159);
-    border: 3.25rem solid rgb(45, 45, 159);
+    border: 1.25rem solid rgb(45, 45, 159);
     text-decoration: none;
     border-radius: 0.25rem;
 }
