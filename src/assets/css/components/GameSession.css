@@ -1,0 +1,12 @@
+#bar-game{
+    display:grid;
+    padding:1rem;
+    border: 0.1rem solid rgba(175, 175, 175, 0.867);
+    border-radius: 8px;
+    grid-template-columns: auto  auto;
+}
+
+#idonou{
+    display:block;
+    margin-right: 10rem;
+}
