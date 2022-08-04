@@ -11,13 +11,17 @@
                 <span id="score">14</span>
             </div>
         </div>
+        <div id="game">
+            <div id='circle-rock'>
+                <img src="../assets/images/icon-rock.svg" />
+            </div>
+        </div>
     </div>
 </template>
 
 <script>
     
     import '../assets/css/components/GameSession.css'
-
     export default {
     name: "GameSession",
     data() {
