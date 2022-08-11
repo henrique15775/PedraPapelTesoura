@@ -12,15 +12,15 @@
             </div>
         </div>
         <div id="game">
-            <div id='circle-rock'>
+            <button @click="onClick" id='circle-rock'>
                 <img src="../assets/images/icon-rock.svg" />
-            </div>
-            <div id='circle-paper'>
+            </button>
+            <button @click="onClick" id='circle-paper'>
                 <img src="../assets/images/icon-paper.svg" />
-            </div>
-            <div id='circle-scissors'>
+            </button>
+            <button @click="onClick" id='circle-scissors'>
                 <img src="../assets/images/icon-scissors.svg" />
-            </div>
+            </button>
         </div>
     </div>
 </template>
@@ -32,7 +32,13 @@
     name: "GameSession",
     data() {
         return {};
+    },
+    methods:{
+        onClick(e){
+            console.log('Ola clique!' + e)
+        }
     }
+
 }
 
 </script>
