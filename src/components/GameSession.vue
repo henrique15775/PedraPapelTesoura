@@ -15,6 +15,12 @@
             <div id='circle-rock'>
                 <img src="../assets/images/icon-rock.svg" />
             </div>
+            <div id='circle-paper'>
+                <img src="../assets/images/icon-paper.svg" />
+            </div>
+            <div id='circle-scissors'>
+                <img src="../assets/images/icon-scissors.svg" />
+            </div>
         </div>
     </div>
 </template>
