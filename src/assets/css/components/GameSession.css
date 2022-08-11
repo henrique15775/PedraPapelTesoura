@@ -1,0 +1,53 @@
+
+#gameSession{
+    display:block;
+    width:45%;
+    height:92.5%;
+}
+
+#bar-game{
+    display:grid;
+    padding:1rem;
+    border: 0.1rem solid rgba(175, 175, 175, 0.867);
+    border-radius: 8px;
+    grid-template-columns: auto  auto;
+}
+
+#idonou{
+    display:block;
+    margin-right: 10rem;
+}
+
+#game{
+    margin-top:10rem;
+    background-image: url('../../images/bg-triangle.svg');
+    width:100%;
+    display:flex;
+}
+
+#circle-rock{
+    border: 0.5rem solid rgb(231, 47, 47);
+    width: 8%;
+    background-color:white;
+    padding:50px;
+    border-radius: 200px;
+    margin:3rem;
+}
+
+#circle-paper{
+    border: 0.5rem solid rgb(47, 231, 75);
+    width: 8%;
+    background-color:white;
+    padding:50px;
+    margin: 3rem;
+    border-radius: 200px;
+}
+
+#circle-scissors{
+    border: 0.5rem solid rgb(225, 47, 231);
+    width: 8%;
+    background-color:white;
+    padding:50px;
+    margin: 3rem;
+    border-radius: 225px;
+}
