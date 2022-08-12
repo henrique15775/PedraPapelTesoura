@@ -2,10 +2,13 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import StartApp from './components/StartApp'
 import App from './App'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 import GameApp from './components/GameApp'
 import GameSession from './components/GameSession'
 Vue.use(VueRouter)
-
+Vue.prototype.$axios = axios
+Vue.use(VueAxios)
 Vue.config.productionTip = false
 const routes = [
     {
@@ -23,12 +26,9 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes // short for `routes: routes`
+  routes
 })
 
-// 4. Create and mount the root instance.
-// Make sure to inject the router with the router option to make the
-// whole app router-aware.
 new Vue({
   router,
   render: h => h(App),

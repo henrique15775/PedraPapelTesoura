@@ -26,7 +26,6 @@
 </template>
 
 <script>
-    
     import '../assets/css/components/GameSession.css'
     export default {
     name: "GameSession",
@@ -34,8 +33,10 @@
         return {};
     },
     methods:{
-        onClick(e){
-            console.log('Ola clique!' + e)
+        onClick(){
+            this.$axios.get('127.0.0.1:4000').then( () => {
+                console.log('Chamou')
+            })
         }
     }
 
