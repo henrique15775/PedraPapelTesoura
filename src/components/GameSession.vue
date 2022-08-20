@@ -12,13 +12,13 @@
             </div>
         </div>
         <div id="game">
-            <div id='circle-rock'>
+            <div id='circle-rock' @click="chamada">
                 <img src="../assets/images/icon-rock.svg" />
             </div>
             <div id='circle-paper' @click="chamada">
                 <img src="../assets/images/icon-paper.svg" />
             </div>
-            <div id='circle-scissors'>
+            <div id='circle-scissors' @click="chamada">
                 <img src="../assets/images/icon-scissors.svg" />
             </div>
         </div>
@@ -36,7 +36,7 @@
     },
     methods:{
         async chamada(){
-           const l = await axios.get('https://api.wheretheiss.at/v1/satellites/25544')
+           const l = await axios.get('')
            console.log(l)
         }
     }
