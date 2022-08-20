@@ -28,10 +28,17 @@
 <script>
     
     import '../assets/css/components/GameSession.css'
+    import axios from 'axios'
     export default {
     name: "GameSession",
     data() {
         return {};
+    },
+    methods:{
+        async chamada(){
+           const l = await axios.get('https://www.devmedia.com.br/consumindo-uma-api-com-vue-js-e-axios/42974')
+           console.log(l)
+        }
     }
 }
 
