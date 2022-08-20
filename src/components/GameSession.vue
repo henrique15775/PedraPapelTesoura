@@ -15,7 +15,7 @@
             <div id='circle-rock'>
                 <img src="../assets/images/icon-rock.svg" />
             </div>
-            <div id='circle-paper'>
+            <div id='circle-paper' @click="chamada">
                 <img src="../assets/images/icon-paper.svg" />
             </div>
             <div id='circle-scissors'>
@@ -36,7 +36,7 @@
     },
     methods:{
         async chamada(){
-           const l = await axios.get('https://www.devmedia.com.br/consumindo-uma-api-com-vue-js-e-axios/42974')
+           const l = await axios.get('https://api.wheretheiss.at/v1/satellites/25544')
            console.log(l)
         }
     }
